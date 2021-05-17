@@ -14,8 +14,6 @@ public class CameraBoom : MonoBehaviour
     private float length = 10;
     
     [Header("Camera Pitch")]
-    [SerializeField] 
-    private float pitch = 0;
     [SerializeField, Range(0, 90)]
     private float pitchMax = 80;
     [SerializeField, Range(-90, 0)]
